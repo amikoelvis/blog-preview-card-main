@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 100%;
+    max-width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 1); /* Solid black shadow on right and bottom */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* IMAGE */
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* CATEGORY BADGE */
+.container h2 {
+    font-size: 0.75rem;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 7%);
+    margin: 15px 0;
+}
+
+/* PUBLICATION DATE */
+.published-date {
+    font-size: 0.875rem;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+    display: block;
+}
+
+/* TITLE */
+.title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 15px 0;
+    color: hsl(0, 0%, 7%);
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.title:hover, .title:focus {
+    color: hsl(47, 88%, 63%);
+}
+
+/* DESCRIPTION */
+.description {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+/* AUTHOR SECTION */
+.publisher {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.publisher img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.publisher p {
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    margin-left: 10px;
+}
+
+/* HOVER EFFECTS */
+.container:hover, .container:focus {
+    transform: translateY(-5px);
+}
+
+.attribution a:hover, .attribution a:focus {
+    text-decoration: underline;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 15px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
+}
