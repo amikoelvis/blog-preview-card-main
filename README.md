@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/amikoelvis/blog-preview-card-main/tree/main/blog-preview-card-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/amikoelvis/blog-preview-card-main)
+- Live Site URL: (https://blog-preview-card-main-nine-ruby.vercel.app/)
 
 ### Built with
 
